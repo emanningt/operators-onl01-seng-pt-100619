@@ -1,6 +1,6 @@
 def unsafe?(speed)
   speed = 60
-  retun true if speed == 70
+  return true if speed == 70
 end
 
 
