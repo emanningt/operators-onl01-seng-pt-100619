@@ -1,9 +1,4 @@
 def unsafe?(speed)
-  if speed < 40
-    puts tue 
-  else speed >60
-    puts true
-  end
   speed > 40 || speed < 60 ? false : true
 end
 
